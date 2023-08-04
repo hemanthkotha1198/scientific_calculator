@@ -1,0 +1,80 @@
+.container{
+    height: 710px;
+    width: 500px;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 0px;
+    /* border-radius: 0px; */
+    /* background: linear-gradient(-135deg, #71b7e6, #9b59b6);  */
+
+}
+body{
+    /* background-color: beige; */
+    /* background: linear-gradient(-135deg, #71b7e6, #9b59b6);  */
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);    
+    /* background-color: #333333; */
+
+}
+
+.firstpart{
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: beige;
+}
+#result{
+margin-top: 50px;
+width: 75%;
+height: 50px;
+border-radius: 10px;
+background-color: black;
+color:aliceblue;
+font-family: 'Courier New', Courier, monospace0;
+font-weight: bold;
+font-size: large;
+box-shadow: 5px 5px;
+margin-top: 80px;
+}
+button{
+    margin: 8px;
+    padding: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow:  3px 6px ;
+    width: 50px;
+}
+.secondpart{
+    margin-top: 50px;
+}
+#one,#two,#three ,#four, #five, #six ,#sev ,#eig, #nine,#zero{
+    background-color: gray;
+}
+#clear,#LE,#eql{
+    background-color: orange;
+}
+#op,#cp,#plus,#div,#plus,#sub,#dot,#porm,#MUL{
+    background-color: cornflowerblue;
+}
+#Mod,#Xnot,#Xcap,#ln,#e,#X2,#log,#cos,#sqrt,#sin,#tan,#pie,#deg,#rad{
+    background-color: aqua;
+}
+
+#clear{
+    /* background-color: ; */
+    /* grid-column:1/3; */
+    width: 120px;
+}
+#e{
+width: 120px;
+}
+#rad{
+    width: 185px;
+}
+#eql{
+    width: 330px;
+}

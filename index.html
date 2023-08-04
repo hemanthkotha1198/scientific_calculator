@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+<center>
+    <!-- <div class="Main-Container"> -->
+       <div class="container">
+        <h1>Basic Scientific Calculator</h1>
+           <div class="firstpart">
+                <input type="text" id="result" placeholder="0">
+               <div class="secondpart">
+                <button id="clear" onclick="clearResult()">C</button>
+                <button id="op"onclick="insert('(')">(</button>
+                <button id="cp" onclick="insert(')')">)</button>
+                <!-- <button id="LE"onclick="insert('<=')"><=</button> -->
+                <button id="Mod" onclick="insert('%')">%</button>
+                <button id="Xnot" onclick="insert('!')">X!</button>
+                <button id="Xcap" onclick="insert('**')">X^</button>
+                <button id="sev"onclick="insert('7')">7</button>
+                <button id="eig" onclick="insert('8')">8</button>
+                <button id="nine" onclick="insert('9')">9</button>
+                <button id="MUL" onclick="insert('*')">*</button>
+                <button id="div" onclick="insert('/')">/</button>
+                <button id="X2" onclick="insert('**2')">X<sup>2</sup></button>
+                <button id="pie" onclick="insert('*3.14')">π</button>
+                <!-- <button id="ln" onclick="insert('log')">ln</button> -->
+                
+                
+                <button id="four" onclick="insert('4')">4</button>
+                <button id="five" onclick="insert('5')">5</button>
+                <button id="six" onclick="insert('6')">6</button>
+                <button id="plus" onclick="insert('+')">+</button>
+
+                <button id="deg" onclick="insert('* (180 / 3.14)')"><sup>o</sup></button>
+                <button id="e" onclick="insert('e')">e</button>
+                <!-- <button id="log" onclick="insert('log10')">log</button> -->
+                <!-- <button id="cos" onclick="insert('cos')">cos</button> -->
+                <button id="one" onclick="insert('1')">1</button>
+                <button id="two" onclick="insert('2')">2</button>
+                <button id="three" onclick="insert('3')">3</button>
+                <button id="sub" onclick="insert('-')">-</button>
+                <!-- <button id="sqrt" onclick="insert('√')">√</button> -->
+                <!-- <button id="sin" onclick="insert('sin')">sin</button> -->
+                <!-- <button id="tan" onclick="insert('tan')">tan</button> -->
+                <!-- <button id="porm" onclick="insert('')">+/-</button> -->
+               
+
+
+                <button id="rad" onclick="insert('* (3.14 / 180) ')">rad</button>
+                
+                <button id="dot" onclick="insert('.')">.</button>
+                <button id="zero" onclick="insert('0')">0</button>
+                <button id="eql"  onclick="calculate()">Evalute</button>
+               </div>
+           </div>
+       </div> 
+    <!-- </div> -->
+</center>
+<script src="./Script.js"></script>
+</body>
+</html>
